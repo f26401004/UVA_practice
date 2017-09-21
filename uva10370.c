@@ -27,5 +27,5 @@ int main()
 		result[i] = percent / N * 100;
 	}
 	for (i = 0 ; i < case_num ; ++i)
-		printf("%.3f\n", result[i]);
+		printf("%.3f%%\n", result[i]);
 }
